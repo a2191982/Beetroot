@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mailto</title>
+    <style>
+        input[type=submit] 
+        {
+            background-color: gold;
+            width: fit-content;
+            height: 40px;
+            width: 10%;
+        }
+        body
+        {
+            text-align: center;
+            background-color: lightblue;
+        }
+        input[type=text]
+        {
+            width: 10%;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="mailto:mail@mail.mail">
+        <p>
+            <label><b>First and last name:</b></label>
+            <br>
+            <input type="text" name="subject" placeholder="Enter your name">
+        </p>
+        <p>
+            <textarea name="body" cols="60" rows="10" placeholder="Insert stuff here"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+
+    <a href="mailto:mail@mail.mail?subject=Classwork">Send email</a>
+
+</body>
+</html>

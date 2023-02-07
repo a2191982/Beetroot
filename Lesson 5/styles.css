@@ -1,0 +1,16 @@
+.summary-container {
+   font-family: monospace;
+   background-color: lightcoral;
+   height: 20%;
+   width: 20%;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.summary {
+    margin-bottom: 20px;    
+}
+
+.summary-links {
+    font-size: larger;
+}

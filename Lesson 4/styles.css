@@ -1,0 +1,47 @@
+.wrapper {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(144, 144, 213);
+    padding: 30px;
+  }
+  
+  .main-block {
+    border-radius: 30px;
+    background-color: rgba(4, 4, 29, 0.504);
+    text-align: center;
+    height: 200px;
+    box-shadow: 2px 2px black;
+  }
+  
+  .title {
+    padding-top: 30px;
+    color: rgb(176, 186, 209);
+    margin-bottom: 4px;
+  }
+  
+  .description {
+    color: azure;
+  }
+  
+  .input-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+  
+  .email-input {
+    width: 240px;
+    height: 24px;
+    border-radius: 8px;
+  }
+  
+  .submit-btn {
+    width: 120px;
+    height: 32px;
+    background-color:dodgerblue;
+    border-radius: 8px;
+  }
+  
+  .text-tip {
+    color: slategrey;
+  }
+  
